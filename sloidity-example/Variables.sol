@@ -3,7 +3,7 @@ pragma solidity ^0.8.24;
 
 contract Variables {
     // State variables are stored on the blockchain.
-    string public s_text = "Hello";
+    string public s_text = "Hello!";
     uint256 public s_num = 123;
 
     function doSomething() public view returns (uint256, address, uint256) {
